@@ -1,0 +1,182 @@
+Order_ID,Date,City,Food_Item,Category,Quantity,Price,Payment_Method,Customer_Rating
+ORD1001,2025-01-19,Bengaluru,Tea,Beverages,3,400,Card,4.7
+ORD1002,2025-02-19,Guwahati,Dosa,South Indian,3,120,Wallet,4.7
+ORD1003,2025-05-27,Bengaluru,Vada,South Indian,1,350,Cash,4.5
+ORD1004,2025-02-27,Bengaluru,Biryani,Indian,5,450,Cash,3.0
+ORD1005,2025-03-04,Delhi,Fried Rice,Chinese,1,250,Wallet,4.8
+ORD1006,2025-04-27,Bengaluru,Vada,Fast food,1,120,Wallet,4.2
+ORD1007,2025-02-25,Bengaluru,Cold Coffee,Beverages,3,120,Wallet,4.6
+ORD1008,2025-03-20,Delhi,Dosa,South Indian,4,80,Wallet,3.2
+ORD1009,2025-05-07,Guwahati,Pizza,Fast Food,5,80,Cash,4.2
+ORD1010,2025-05-30,Guwahati,Fries,Fast Food,1,250,Cash,4.2
+ORD1011,2025-04-07,Bengaluru,Vada,South Indian,4,180,Cash,
+ORD1012,2025-01-15,Mumbai,Fries,Fast Food,2,220,Cash,3.7
+ORD1013,2025-04-04,Kolkata,Manchurian,Chinese,4,120,Wallet,4.1
+ORD1014,2025-03-21,Bengaluru,Idli,South Indian,1,300,Wallet,4.0
+ORD1015,2025-01-20,Delhi,Gulab Jamun,Desserts,4,450,UPI,3.6
+ORD1016,2025-02-14,Kolkata,Fried Rice,Chinese,5,350,Card,4.7
+ORD1017,2025-04-04,Bengaluru,Tea,Beverages,1,300,Wallet,3.4
+ORD1018,2025-06-09,Mumbai,Idli,South Indian,3,180,Card,3.1
+ORD1019,2025-01-14,Bengaluru,Tea,Beverages,3,150,Card,3.7
+ORD1020,2025-04-03,Guwahati,Dosa,South Indian,5,150,Card,4.5
+ORD1021,2025-03-29,Guwahati,Vada,South Indian,5,220,Wallet,4.1
+ORD1022,2025-04-13,Guwahati,Paneer Butter Masala,Indian,5,350,Cash,4.5
+ORD1023,2025-04-06,Mumbai,Ice Cream,Desserts,3,80,Wallet,3.5
+ORD1024,2025-06-21,Mumbai,Fried Rice,Chinese,2,80,UPI,4.6
+ORD1025,2025-01-06,Delhi,Fries,Fast Food,4,220,Card,4.0
+ORD1026,2025-02-25,Delhi,Coffee,Beverages,3,250,Cash,3.2
+ORD1027,2025-06-13,Kolkata,Fried Rice,Chinese,1,120,Wallet,3.3
+ORD1028,2025-01-25,Mumbai,Coffee,Beverages,5,220,Card,4.0
+ORD1029,2025-03-24,Delhi,Fries,Fast Food,1,300,Cash,4.8
+ORD1030,2025-03-28,Bengaluru,Biryani,Indian,4,220,Cash,3.9
+ORD1031,2025-01-21,Delhi,Noodles,Chinese,2,350,Card,3.4
+ORD1032,2025-04-05,Kolkata,Burger,Fast Food,1,250,UPI,4.4
+ORD1033,2025-03-24,Delhi,Pizza,Fast Food,1,450,UPI,3.5
+ORD1034,2025-03-01,Delhi,Brownie,Desserts,5,220,UPI,4.1
+ORD1035,2025-01-11,Delhi,Fries,Fast Food,1,180,Card,4.2
+ORD1036,2025-06-25,Guwahati,Noodles,Chinese,1,350,UPI,4.9
+ORD1037,2025-01-09,Guwahati,Noodles,Chinese,2,150,UPI,3.5
+ORD1038,2025-05-21,Delhi,Ice Cream,Desserts,4,80,Cash,3.8
+ORD1039,2025-06-03,Guwahati,Coffee,Beverages,5,220,Wallet,4.2
+ORD1040,2025-03-26,Guwahati,Idli,South Indian,3,80,Card,4.4
+ORD1041,2025-06-24,Bengaluru,Brownie,Desserts,4,250,Cash,4.4
+ORD1042,2025-03-07,Kolkata,Dosa,South Indian,2,220,Wallet,4.5
+ORD1043,2025-01-06,Bengaluru,Cold Coffee,Beverages,5,300,Cash,3.5
+ORD1044,2025-01-20,Mumbai,Idli,South Indian,1,180,Wallet,3.3
+ORD1045,2025-03-08,Guwahati,Noodles,Chinese,4,80,Cash,3.0
+ORD1046,2025-05-04,Bengaluru,Tea,Beverages,4,450,Cash,3.4
+ORD1047,2025-03-13,Bengaluru,Coffee,Beverages,4,80,Card,5.0
+ORD1048,2025-05-28,Kolkata,Paneer Butter Masala,Indian,3,250,Cash,3.3
+ORD1049,2025-01-19,Kolkata,Tea,Beverages,1,120,Cash,4.5
+ORD1050,2025-02-07,Bengaluru,Noodles,Chinese,4,150,UPI,3.3
+ORD1051,2025-04-12,Mumbai,Vada,South Indian,3,180,UPI,3.9
+ORD1052,2025-05-11,Kolkata,Burger,Fast Food,1,150,UPI,3.9
+ORD1053,2025-02-09,Delhi,Brownie,Desserts,5,220,UPI,3.7
+ORD1054,2025-02-11,Bengaluru,Idli,South Indian,2,350,Card,3.8
+ORD1055,2025-04-12,Delhi,Burger,Fast Food,5,400,Card,3.5
+ORD1056,2025-05-11,Mumbai,Biryani,Indian,3,220,Cash,4.4
+ORD1057,2025-05-18,Guwahati,Tea,Beverages,5,80,Card,4.3
+ORD1058,2025-03-21,Bengaluru,Fried Rice,Chinese,1,220,Cash,4.2
+ORD1059,2025-03-14,Mumbai,Manchurian,Chinese,3,450,Cash,3.6
+ORD1060,2025-06-24,Guwahati,Ice Cream,Desserts,3,80,Card,3.6
+ORD1061,2025-06-24,Delhi,Thali,Indian,5,120,Wallet,3.1
+ORD1062,2025-06-10,Guwahati,Cold Coffee,Beverages,2,80,UPI,4.7
+ORD1063,2025-04-17,Mumbai,Fried Rice,Chinese,1,300,Card,3.2
+ORD1064,2025-02-14,Delhi,Brownie,Desserts,3,300,Card,4.3
+ORD1065,2025-05-30,Delhi,Idli,South Indian,4,300,UPI,4.1
+ORD1066,2025-04-04,Delhi,Noodles,Chinese,1,300,Wallet,4.5
+ORD1067,2025-03-02,Guwahati,Fries,Fast Food,3,180,Cash,3.1
+ORD1068,2025-03-09,Guwahati,Gulab Jamun,Desserts,3,400,Card,4.2
+ORD1069,2025-05-12,Guwahati,Burger,Fast Food,5,150,Wallet,3.8
+ORD1070,2025-03-20,Mumbai,Thali,Indian,2,250,Wallet,3.7
+ORD1071,2025-04-03,Kolkata,Vada,South Indian,2,450,Wallet,4.8
+ORD1072,2025-02-28,Guwahati,Dosa,South Indian,2,400,UPI,3.6
+ORD1073,2025-03-17,Kolkata,Ice Cream,Desserts,5,350,UPI,3.0
+ORD1074,2025-05-19,Delhi,Paneer Butter Masala,Indian,3,220,Card,4.9
+ORD1075,2025-05-07,Mumbai,Gulab Jamun,Desserts,2,450,Wallet,3.4
+ORD1076,2025-01-03,Mumbai,Tea,Beverages,2,180,UPI,3.8
+ORD1077,2025-05-22,Delhi,Paneer Butter Masala,Indian,3,400,Cash,4.3
+ORD1078,2025-02-17,Delhi,Noodles,Chinese,5,350,UPI,4.9
+ORD1079,2025-04-23,Delhi,Ice Cream,Desserts,1,80,Wallet,4.1
+ORD1080,2025-05-10,Delhi,Fried Rice,Chinese,5,400,Cash,4.5
+ORD1081,2025-04-20,Mumbai,Manchurian,Chinese,2,450,Wallet,3.4
+ORD1082,2025-05-16,Bengaluru,Ice Cream,Desserts,5,80,Card,4.8
+ORD1083,2025-01-02,Guwahati,Fried Rice,Chinese,2,450,Wallet,4.9
+ORD1084,2025-03-10,Mumbai,Thali,Indian,2,220,Card,3.3
+ORD1085,2025-01-21,Guwahati,Ice Cream,Desserts,1,300,Wallet,4.6
+ORD1086,2025-05-16,Mumbai,Pizza,Fast Food,2,80,UPI,3.7
+ORD1087,2025-05-20,Kolkata,Dosa,South Indian,4,250,Cash,3.8
+ORD1088,2025-06-25,Delhi,Biryani,Indian,1,400,Card,4.8
+ORD1089,2025-05-03,Mumbai,Thali,Indian,2,80,Cash,3.7
+ORD1090,2025-03-21,Mumbai,Biryani,Indian,3,180,Card,3.1
+ORD1091,2025-01-14,Delhi,Noodles,Chinese,5,180,Wallet,4.0
+ORD1092,2025-05-27,Bengaluru,Cold Coffee,Beverages,4,250,UPI,4.2
+ORD1093,2025-03-08,Mumbai,Fries,Fast Food,5,400,Wallet,4.2
+ORD1094,2025-01-08,Guwahati,Fried Rice,Chinese,4,120,Wallet,3.4
+ORD1095,2025-02-21,Mumbai,Coffee,Beverages,5,150,UPI,4.8
+ORD1096,2025-06-06,Guwahati,Fried Rice,Chinese,2,150,Cash,4.3
+ORD1097,2025-05-11,Mumbai,Brownie,Desserts,1,350,Wallet,4.9
+ORD1098,2025-02-06,Kolkata,Manchurian,Chinese,4,450,Wallet,4.0
+ORD1099,2025-04-01,Mumbai,Paneer Butter Masala,Indian,5,180,Wallet,4.0
+ORD1100,2025-05-01,Guwahati,Manchurian,Chinese,4,220,Wallet,3.3
+ORD1101,2025-03-10,Kolkata,Biryani,Indian,3,450,Wallet,3.6
+ORD1102,2025-05-24,Mumbai,Pizza,Fast Food,1,150,Card,4.9
+ORD1103,2025-03-29,Kolkata,Dosa,South Indian,3,80,UPI,3.2
+ORD1104,2025-01-01,Guwahati,Vada,South Indian,3,350,Wallet,4.1
+ORD1105,2025-02-12,Bengaluru,Biryani,Indian,2,300,Cash,3.1
+ORD1106,2025-02-01,Guwahati,Coffee,Beverages,2,180,Card,4.4
+ORD1107,2025-01-31,Delhi,Noodles,Chinese,1,120,Card,3.3
+ORD1108,2025-05-19,Bengaluru,Dosa,South Indian,1,350,UPI,4.1
+ORD1109,2025-01-10,Mumbai,Fries,Fast Food,3,450,Wallet,3.6
+ORD1110,2025-03-14,Guwahati,Ice Cream,Desserts,4,400,Card,3.8
+ORD1111,2025-01-12,Guwahati,Fried Rice,Chinese,5,120,Card,4.5
+ORD1112,2025-06-15,Guwahati,Cold Coffee,Beverages,1,80,Wallet,3.7
+ORD1113,2025-05-03,Bengaluru,Manchurian,Chinese,2,400,Card,4.9
+ORD1114,2025-02-08,Kolkata,Manchurian,Chinese,5,150,Cash,3.9
+ORD1115,2025-02-11,Guwahati,Noodles,Chinese,3,300,Cash,4.8
+ORD1116,2025-04-15,Delhi,Paneer Butter Masala,Indian,1,220,Cash,4.0
+ORD1117,2025-04-29,Mumbai,Idli,South Indian,5,450,Card,4.1
+ORD1118,2025-04-05,Guwahati,Fried Rice,Chinese,3,250,Cash,3.1
+ORD1119,2025-02-23,Guwahati,Paneer Butter Masala,Indian,1,220,Cash,3.6
+ORD1120,2025-06-24,Mumbai,Idli,South Indian,5,120,Wallet,3.1
+ORD1121,2025-06-03,Kolkata,Fried Rice,Chinese,1,250,UPI,4.5
+ORD1122,2025-06-08,Mumbai,Thali,Indian,4,220,Wallet,4.0
+ORD1123,2025-02-15,Guwahati,Vada,South Indian,5,400,UPI,3.5
+ORD1124,2025-06-08,Delhi,Coffee,Beverages,4,400,Cash,4.3
+ORD1125,2025-05-19,Mumbai,Biryani,Indian,3,350,Wallet,3.1
+ORD1126,2025-01-14,Bengaluru,Biryani,Indian,2,80,UPI,3.3
+ORD1127,2025-04-18,Mumbai,Idli,South Indian,3,400,Card,3.2
+ORD1128,2025-01-22,Guwahati,Fried Rice,Chinese,2,180,UPI,4.0
+ORD1129,2025-03-09,Kolkata,Fries,Fast Food,4,300,Card,4.2
+ORD1130,2025-06-08,Guwahati,Biryani,Indian,5,180,Card,4.9
+ORD1131,2025-05-18,Mumbai,Brownie,Desserts,2,80,Card,4.1
+ORD1132,2025-05-22,Guwahati,Burger,Fast Food,2,300,Card,3.5
+ORD1133,2025-04-01,Delhi,Idli,South Indian,4,80,Cash,3.2
+ORD1134,2025-03-16,Guwahati,Coffee,Beverages,4,80,Wallet,3.5
+ORD1135,2025-01-17,Mumbai,Tea,Beverages,5,350,UPI,3.8
+ORD1136,2025-04-12,Delhi,Fried Rice,Chinese,1,450,Cash,4.4
+ORD1137,2025-06-23,Guwahati,Tea,Beverages,2,400,Card,3.3
+ORD1138,2025-04-30,Bengaluru,Noodles,Chinese,5,350,Wallet,3.9
+ORD1139,2025-03-15,Bengaluru,Fries,Fast Food,1,350,UPI,4.2
+ORD1140,2025-04-23,Bengaluru,Ice Cream,Desserts,2,350,Card,4.5
+ORD1141,2025-06-13,Kolkata,Tea,Beverages,3,150,Cash,4.8
+ORD1142,2025-06-21,Kolkata,Brownie,Desserts,2,220,UPI,4.3
+ORD1143,2025-03-08,Mumbai,Thali,Indian,3,120,UPI,3.3
+ORD1144,2025-05-09,Mumbai,Noodles,Chinese,1,450,Wallet,4.8
+ORD1145,2025-03-24,Guwahati,Fried Rice,Chinese,1,180,Card,3.7
+ORD1146,2025-06-10,Guwahati,Paneer Butter Masala,Indian,5,220,Cash,4.1
+ORD1147,2025-01-06,Guwahati,Cold Coffee,Beverages,3,250,Card,4.3
+ORD1148,2025-06-22,Mumbai,Paneer Butter Masala,Indian,1,180,Wallet,4.5
+ORD1149,2025-02-17,Delhi,Idli,South Indian,5,250,UPI,4.7
+ORD1150,2025-06-26,Guwahati,Burger,Fast Food,3,80,Cash,3.0
+ORD1151,2025-02-04,Mumbai,Pizza,Fast Food,1,180,Cash,5.0
+ORD1152,2025-05-14,Bengaluru,Brownie,Desserts,4,150,UPI,3.7
+ORD1153,2025-02-12,Guwahati,Paneer Butter Masala,Indian,1,250,Card,4.5
+ORD1154,2025-05-30,Delhi,Burger,Fast Food,3,80,Card,4.3
+ORD1155,2025-05-28,Guwahati,Fries,Fast Food,5,350,Wallet,3.6
+ORD1156,2025-03-02,Delhi,Cold Coffee,Beverages,5,400,Card,3.0
+ORD1157,2025-01-02,Delhi,Gulab Jamun,Desserts,2,180,UPI,3.8
+ORD1158,2025-04-16,Delhi,Idli,South Indian,5,400,UPI,3.8
+ORD1159,2025-06-09,Bengaluru,Manchurian,Chinese,1,220,Card,3.6
+ORD1160,2025-02-22,Kolkata,Idli,South Indian,4,250,Card,4.0
+ORD1161,2025-05-13,Kolkata,Paneer Butter Masala,Indian,3,400,Card,4.3
+ORD1162,2025-04-02,Bengaluru,Pizza,Fast Food,3,180,UPI,4.2
+ORD1163,2025-05-05,Kolkata,Cold Coffee,Beverages,5,300,Wallet,3.9
+ORD1164,2025-04-13,Kolkata,Thali,Indian,1,400,UPI,3.4
+ORD1165,2025-05-20,Kolkata,Pizza,Fast Food,1,250,Cash,4.0
+ORD1166,2025-01-07,Mumbai,Dosa,South Indian,4,80,Card,3.6
+ORD1167,2025-02-28,Guwahati,Gulab Jamun,Desserts,4,220,Card,4.1
+ORD1168,2025-03-04,Delhi,Thali,Indian,1,220,Card,4.1
+ORD1169,2025-04-09,Mumbai,Coffee,Beverages,4,250,Cash,4.7
+ORD1170,2025-06-15,Bengaluru,Fried Rice,Chinese,4,80,UPI,4.6
+ORD1171,2025-06-19,Guwahati,Brownie,Desserts,3,450,Wallet,4.4
+ORD1172,2025-04-23,Kolkata,Gulab Jamun,Desserts,5,220,UPI,4.7
+ORD1173,2025-01-03,Mumbai,Fries,Fast Food,2,120,UPI,4.4
+ORD1174,2025-05-04,Delhi,Fried Rice,Chinese,2,220,Wallet,3.7
+ORD1175,2025-03-01,Bengaluru,Biryani,Indian,1,300,UPI,4.5
+ORD1176,2025-06-17,Kolkata,Biryani,Indian,3,180,Wallet,3.2
+ORD1177,2025-04-05,Bengaluru,Vada,South Indian,2,180,UPI,3.6
+ORD1178,2025-02-03,Delhi,Manchurian,Chinese,5,350,UPI,3.2
+ORD1179,2025-02-04,Bengaluru,Dosa,South Indian,5,400,Wallet,4.5
+ORD1180,2025-06-12,Guwahati,Manchurian,Chinese,4,150,Wallet,3.9
+ORD1021,2025-03-29,Guwahati,Vada,South Indian,5,220,Wallet,4.1
