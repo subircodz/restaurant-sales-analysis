@@ -1,54 +1,51 @@
-# 🍽️ Restaurant Sales Analysis
+# 🍽️ Restaurant Sales Business Analytics Pipeline
 
-## 🎯 Business Problem
-
-Restaurants generate thousands of transactions every month, but raw sales data alone does not answer important business questions.
-
-This project analyzes restaurant sales and order data to identify revenue trends, customer ordering behavior, and operational insights that can support better business decisions.
-
-The objective is not simply to analyze data, but to demonstrate how a Data Analyst approaches a real-world business problem from raw data to actionable insights.
+A modular Business Analytics pipeline built using Python to transform raw restaurant sales data into actionable business insights through data cleaning, validation, feature engineering, investigation, visualization, and automated reporting.
 
 ---
 
-## 👥 Stakeholder
+# 🎯 Business Problem
 
-Primary Stakeholder
+Restaurant businesses generate hundreds of transactions every month, but raw transactional data alone cannot answer important business questions.
 
-Restaurant Owner / Operations Manager
+This project demonstrates how a Data Analyst approaches a real-world business problem by transforming raw sales data into business intelligence using a structured analytical workflow.
 
-The analysis supports operational and strategic decisions related to sales performance, menu optimization, staffing, and revenue growth.
-
---- 
-
-## 📌 Business Objectives
-
-The analysis attempts to answer questions such as:
-
-- Which menu categories generate the highest revenue?
-- Which products sell the most?
-- Which products generate high revenue despite low sales volume?
-- What are the busiest days and hours?
-- How does weekend performance compare with weekdays?
-- Which months perform better?
-- Are there opportunities to improve menu pricing or promotions?
-
-## 🗂️ Dataset
-
-The dataset contains restaurant order transactions including:
-
-- Order Date
-- Menu Item
-- Category
-- Quantity
-- Unit Price
-
-The dataset is used solely for learning and portfolio purposes.
+Rather than stopping at charts and statistics, the project investigates unusual business patterns and recommends further areas for decision making.
 
 ---
 
-## 🔄 Project Workflow
+# 👤 Primary Stakeholder
 
-The project follows a structured analytical workflow.
+**Restaurant Owner / Operations Manager**
+
+The analysis supports operational and strategic decisions related to:
+
+* Revenue performance
+* Menu optimization
+* Customer purchasing behaviour
+* Payment preferences
+* Business trend analysis
+* Future business investigations
+
+---
+
+# 📌 Business Objectives
+
+This project attempts to answer questions such as:
+
+* Which city generates the highest revenue?
+* Which food category contributes the most revenue?
+* Which food items generate the highest sales?
+* Which payment method is most preferred?
+* What is the Average Order Value (AOV)?
+* How does monthly revenue change over time?
+* Which month underperformed?
+* Can the observed revenue drop be explained using available business data?
+* What additional investigations should management perform?
+
+---
+
+# 🔄 Business Analytics Pipeline
 
 ```
 Raw Dataset
@@ -69,213 +66,302 @@ Feature Engineering
 Business Analysis
       │
       ▼
-Business Findings
+Business Observations
+      │
+      ▼
+Root Cause Investigation
+      │
+      ▼
+Recommended Investigations
+      │
+      ▼
+Charts + PDF Report
 ```
+
 ---
 
-## 🏗️ Project Architecture
+# ✨ Project Features
+
+* Data Quality Assessment
+* Data Cleaning
+* Business Rule Validation
+* Feature Engineering
+* Revenue Analysis
+* Monthly Performance Analysis
+* Average Order Value Analysis
+* Customer Behaviour Analysis
+* Root Cause Investigation
+* Automated PDF Report Generation
+* Data Visualizations
+* Modular Project Architecture
+
+---
+
+# 🗂️ Dataset
+
+The project analyzes restaurant transaction data containing information such as:
+
+* Order Date
+* City
+* Category
+* Food Item
+* Quantity
+* Unit Price
+* Payment Method
+* Customer Rating
+
+The dataset is used purely for learning and portfolio purposes.
+
+---
+
+# 🏗️ Project Architecture
 
 ```
 restaurant-sales-analysis/
 ├── CHANGELOG.md
-├── data
-│   ├── processed
-│   │   └── cleaned_dataset.csv
-│   └── raw
-│       └── restaurant_orders.csv
 ├── LICENSE
-├── output
-│   ├── charts
-│   └── reports
 ├── README.md
 ├── requirements.txt
-├── Restaurant_Sales_Analysis_Tasks.pptx
+├── data
+│   ├── raw
+│   └── processed
+├── output
+│   ├── charts
+│   └── reports
 └── src
-    ├── analysis.py
-    ├── config.py
     ├── main.py
+    ├── config.py
     ├── preprocessing.py
-    ├── report.py
-    └── visualization.py
-
-
+    ├── analysis.py
+    ├── visualization.py
+    └── report.py
 ```
 
 The project follows a modular architecture where each module has a single responsibility.
 
+### main.py
 
-### 📑 main.py
+Application orchestrator responsible for executing the complete Business Analytics pipeline.
 
-Acts as the project orchestrator.
-
-It controls the overall analytical workflow without containing business logic.
-
-### 📑 preprocessing.py
+### preprocessing.py
 
 Responsible for:
 
-- Loading data
-- Exploring the dataset
-- Cleaning data
-- Validating data
+* Loading datasets
+* Data exploration
+* Data cleaning
+* Data validation
 
-### 📑 analysis.py
-
-Responsible for:
-
-- Feature engineering
-- Business analysis
-- Business observations
-
-### 📑 report.py
+### analysis.py
 
 Responsible for:
 
-- Generating business reports and summarizing analytical findings.
+* Feature engineering
+* KPI calculations
+* Business analysis
+* Business observations
+* Investigation logic
 
-### 📑 visualization.py
+### visualization.py
+
+Responsible for generating analytical charts.
+
+### report.py
 
 Responsible for:
 
-- Generating visualizations and KPI dashboards used throughout the analysis.
+* Console reporting
+* PDF report generation
 
-### 📑 config.py
+### config.py
 
-Responsible for:
+Centralizes:
 
-- Centralizing project configuration such as file paths, directories, and reusable project settings.
+* File paths
+* Output directories
+* Visualization settings
+* Global project configuration
 
 ---
 
-## ⚙️ Setup
+# ⚙️ Setup
 
-### Clone the repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/<your-user-name>/restaurant-sales-analysis.git
+git clone https://github.com/<your-username>/restaurant-sales-analysis.git
 
 cd restaurant-sales-analysis
 ```
-### Install Dependencies
-```
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
-## ▶️ Run the program
-```
+
+## Run
+
+```bash
 python src/main.py
 ```
 
-## 🔍 Analysis Pipeline
+---
 
-The project follows six analytical phases.
+# 📊 Analysis Performed
 
-### Phase 1 — Data Understanding
+The project performs the following analyses:
 
-Understand dataset structure, data types, missing values, duplicates, and overall quality.
-
-### Phase 2 — Data Cleaning
-
-Remove inconsistencies and prepare data for analysis.
-
-### Phase 3 — Data Validation
-
-Validate business rules and ensure data quality before analysis.
-
-### Phase 4 — Feature Engineering
-
-Create additional analytical attributes such as:
-
-- Revenue
-- Month
-- Day Name
-- Weekend Indicator
-
-These features make later business analysis easier.
-
-### Phase 5 — Business Analysis
-
-Perform exploratory business analysis to answer stakeholder questions.
-
-### Phase 6 — Business Findings
-
-Summarize observations and business recommendations.
+* Total Revenue
+* Average Order Value (AOV)
+* Revenue by City
+* Revenue by Category
+* Revenue by Payment Method
+* Top Revenue Generating Food Items
+* Highest Quantity Sold Item
+* Top Rated Food Items
+* Orders by Weekday
+* Monthly Revenue Trend
+* Monthly Average Revenue
+* Monthly Average Order Value
+* Monthly Average Quantity Ordered
+* Average Order Value by City
+* Lowest Performing Category
 
 ---
 
-## 💡 Key Business Insights
+# 🔎 Investigation Performed
 
-The analysis identified several important observations, including:
+Instead of directly concluding why revenue declined, the project performs a structured investigation.
 
-- Weekend sales generated higher revenue than weekdays.
-- A small number of menu items contributed disproportionately to total revenue.
-- Lunch hours consistently produced the highest order volume.
-- Beverage sales increased significantly during weekends.
+Example:
 
---- 
+* Identified the lowest-performing month
+* Compared business days across months
+* Compared average monthly revenue
+* Compared Average Order Value
+* Compared average quantity ordered
+* Compared city-wise revenue
 
-## 📈 Business Recommendations
-
-- Consider increasing staffing during weekends.
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Pathlib
+If no conclusive explanation is found, the project recommends further investigation instead of making unsupported assumptions.
 
 ---
 
-## 🎓 Skills Demonstrated
+# 💼 Business Insights Generated
 
-- Data Cleaning
-- Data Validation
-- Feature Engineering
-- Exploratory Data Analysis
-- Business Analysis
-- Modular Python Programming
-- Code Organization
-- Business Storytelling
+The current analysis identifies insights such as:
 
----
-
-## Current Status
-
-Version 1
-
-This project focuses on building a clean analytical workflow.
-
-Future improvements include:
-
-- Interactive dashboard
-- Logging
-- Unit testing
-- Command-line interface
+* Total Revenue
+* Average Order Value
+* Highest Revenue City
+* Highest Revenue Category
+* Highest Selling Food Item
+* Most Preferred Payment Method
+* Highest Rated Food Items
+* Monthly Revenue Performance
+* Lowest Performing Category
+* Lowest Performing Month
 
 ---
 
-## 🎓 Learning Outcomes
+# 📌 Recommended Investigations
 
-This project demonstrates more than data visualization.
+When available data is insufficient, the project recommends additional business investigations such as:
 
-It demonstrates a complete analytical thinking process:
+* Category mix analysis
+* Premium order analysis
+* Discount and promotional campaign analysis
+* Stock availability analysis
+* Staffing and operational review
 
-Raw Data → Clean Data → Validated Data → Business Insights → Business Recommendations
-
-The emphasis is on building maintainable analytical code rather than producing isolated charts.
+This demonstrates how a Data Analyst communicates uncertainty instead of drawing unsupported conclusions.
 
 ---
 
-## 📄 License
+# 📄 Generated Outputs
+
+The application automatically generates:
+
+* Cleaned Dataset
+* Business Charts
+* Console Business Report
+* Professional PDF Report
+
+---
+
+# 📸 Project Screenshots
+
+
+### Application Execution
+![Application execution](screenshots/application.png)
+### Business Observations
+![Business observations](screenshots/business.png)
+### Monthly revenue chart
+![Monthly revenue chart](screenshots/monthly.png)
+### Revenue by city chart
+![Revenue by city chart](screenshots/rev_by_city.png)
+### Generated PDF report
+![Generated PDF report](screenshots/pdf.png)
+
+---
+
+# 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* ReportLab
+* Pathlib
+
+---
+
+# 🎓 Skills Demonstrated
+
+* Data Cleaning
+* Data Validation
+* Feature Engineering
+* Exploratory Data Analysis
+* KPI Analysis
+* Business Analytics
+* Root Cause Investigation
+* Business Storytelling
+* Modular Python Development
+* Automated Reporting
+* Data Visualization
+
+---
+
+# 🚀 Future Improvements
+
+* Unit Testing
+* Logging Framework
+* Command Line Arguments
+* Interactive Dashboard
+* Business Configuration Files
+* Advanced Statistical Analysis
+* SQL Database Integration
+
+---
+
+# 📚 Learning Outcome
+
+This project demonstrates far more than data visualization.
+
+It showcases a complete analytical workflow that mirrors how a professional Data Analyst approaches business problems:
+
+**Understand → Clean → Validate → Engineer → Analyze → Investigate → Report → Recommend**
+
+The emphasis is on building maintainable analytical software while communicating meaningful business insights.
+
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
 
-See the [LICENSE](LICENSE) file for details.
+See the **LICENSE** file for details.
 
 ---
 
-> **Understand the business. Engineer the solution. Communicate the insight.**
+> **"Understand the business. Engineer the solution. Communicate the insight."**
